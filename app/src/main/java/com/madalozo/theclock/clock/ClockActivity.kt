@@ -16,6 +16,8 @@ class ClockActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         getWindow().setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
