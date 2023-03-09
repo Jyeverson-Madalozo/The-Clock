@@ -6,7 +6,6 @@ import android.widget.Button
 import android.content.Intent
 import com.madalozo.theclock.R
 import com.madalozo.theclock.clock.ClockActivity
-import com.madalozo.theclock.pomodoro.PomodoroActivity
 import com.madalozo.theclock.settings.SettingsActivity
 import com.madalozo.theclock.timer.TimerActivity
 

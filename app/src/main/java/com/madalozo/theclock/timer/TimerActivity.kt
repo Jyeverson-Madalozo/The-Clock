@@ -11,6 +11,7 @@ import androidx.preference.PreferenceManager
 import com.madalozo.theclock.R
 import android.view.View
 import android.widget.Button
+import android.widget.Toast
 
 
 class TimerActivity : AppCompatActivity() {
@@ -43,6 +44,9 @@ class TimerActivity : AppCompatActivity() {
                     val tv = findViewById<View>(R.id.txt_stopwatch) as TextView
                     tv.text = "$minute:$seconds"
                     seconds -= 1
+                    if(minute.toInt() == 0 && seconds.toInt() == 0){
+
+                    }
 
                 }
 

@@ -3,7 +3,7 @@
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Settings Titles -->
-    <string name="category_time">Temporizador</string>
+    <string name="category_time">Pomodoro</string>
     <string name="category_screen">Interface</string>
 
     <!-- Titles Preference Settings -->
@@ -16,7 +16,7 @@
     <string name="btn_clock">Relógio</string>
     <string name="btn_stopwatch">Cronômetro</string>
     <string name="btn_settings">Configurações</string>
-    <string name="btn_timer">Temporizador</string>
+    <string name="btn_timer">Pomodoro</string>
 
     <!-- StopWatch Activity -->
     <string name="btn_start">Iniciar</string>
